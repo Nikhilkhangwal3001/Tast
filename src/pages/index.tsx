@@ -3,7 +3,7 @@ import React from "react";
 
 export default function FormPage() {
   return (
-    <div className="min-h-screen bg-[#12372A] flex flex-col justify-start items-center p-4">
+    <div className="min-h-screen bg-[#12372A] flex flex-col justify-start items-center ">
       <h2 className="text-5xl text-white font-bold mb-6">Card payment <br /> checkout form</h2>
 
       <div className="max-w-5xl w-full bg-white shadow-md rounded-lg flex flex-col md:flex-row relative">
@@ -133,7 +133,7 @@ export default function FormPage() {
               Next
             </button>
           </form>
-          <div className="text-[#12372A] mt-4">
+          <div className="text-[#12372A] mt-4 text-center">
             <span className="p-1 ">Instruction </span>
             <span className="p-1 ">License</span>
             <span className="p-1 ">Term of Use</span>
